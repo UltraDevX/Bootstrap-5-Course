@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Web Dev</title>
+		<title>Buttons &amp; Button Groups</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -12,57 +12,32 @@
 			crossorigin="anonymous"
 		/>
 	</head>
-
 	<body>
-		<div class="container my-4">
-			<h2>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-				adipisci!
-			</h2>
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam voluptates
-				corrupti blanditiis expedita, pariatur, minus explicabo culpa incidunt
-				nihil optio dolore necessitatibus earum molestiae, quam dignissimos
-				consequuntur quo aliquam cum quisquam? Laboriosam repellendus vero
-				fugiat quis debitis, repellat quibusdam est?
-			</p>
+		<div class="btn-group">
+			<button class="btn btn-info btn-sm active">Info</button>
+			<button class="btn btn-success" disabled>Success</button>
+			<button class="btn btn-dark">Dark</button>
+			<button class="btn btn-link btn-outline-primary">Link</button>
+			<button class="btn btn-outline-dark btn-lg">Dark</button>
 		</div>
-		<div class="container-fluid">
-			<h1>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-				ullam illum, nemo quasi aut animi.
-			</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam,
-				fuga veritatis beatae corporis quidem reiciendis adipisci amet iure
-				blanditiis odit consequatur animi obcaecati laudantium illum temporibus
-				nemo, dolor unde error, repellendus totam assumenda impedit! Ex corporis
-				dignissimos totam hic iure, vel repudiandae quae libero necessitatibus
-				esse qui, vitae quas dolorum!
-			</p>
+
+		<div class="btn-toolbar" role="toolbar">
+			<div class="btn-group-vertical me-2" role="group">
+				<button type="button" class="btn btn-primary">1</button>
+				<button type="button" class="btn btn-primary">2</button>
+				<button type="button" class="btn btn-primary">3</button>
+				<button type="button" class="btn btn-primary">4</button>
+			</div>
+			<div class="btn-group me-2" role="group">
+				<button type="button" class="btn btn-secondary">5</button>
+				<button type="button" class="btn btn-secondary">6</button>
+				<button type="button" class="btn btn-secondary">7</button>
+			</div>
+			<div class="btn-group" role="group">
+				<button type="button" class="btn btn-info">8</button>
+			</div>
 		</div>
-		<div class="container-lg my-5">
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint, neque
-				error voluptatem cupiditate iure accusantium ea corrupti ex earum
-				perferendis molestias provident iste minima nemo expedita, enim ipsum
-				ipsa in placeat itaque quibusdam accusamus! Ipsum, eius quasi impedit ab
-				quos quibusdam ipsam nostrum omnis sint quas nemo, dignissimos
-				exercitationem! Quibusdam sunt beatae molestiae. Ipsum nemo cupiditate
-				commodi labore ab atque molestiae expedita eum excepturi doloremque
-				obcaecati dolorem quas laborum aliquid voluptatibus iste, nobis impedit
-				magnam suscipit exercitationem sint consequatur. Dolorem sed minus enim
-				reprehenderit atque expedita animi, tempore quaerat voluptas consequatur
-				itaque. Aut mollitia magni iste eum enim! Quibusdam!
-			</p>
-		</div>
-		<div class="container-xxl my-4">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ad
-				in sed praesentium, deserunt libero sequi est iure maiores veniam ipsum
-				debitis ipsa autem soluta ullam deleniti ducimus culpa voluptatem.
-			</p>
-		</div>
+
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

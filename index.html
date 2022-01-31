@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Buttons &amp; Button Groups</title>
+		<title>Grid Layout</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -13,28 +13,14 @@
 		/>
 	</head>
 	<body>
-		<div class="btn-group">
-			<button class="btn btn-info btn-sm active">Info</button>
-			<button class="btn btn-success" disabled>Success</button>
-			<button class="btn btn-dark">Dark</button>
-			<button class="btn btn-link btn-outline-primary">Link</button>
-			<button class="btn btn-outline-dark btn-lg">Dark</button>
-		</div>
-
-		<div class="btn-toolbar" role="toolbar">
-			<div class="btn-group-vertical me-2" role="group">
-				<button type="button" class="btn btn-primary">1</button>
-				<button type="button" class="btn btn-primary">2</button>
-				<button type="button" class="btn btn-primary">3</button>
-				<button type="button" class="btn btn-primary">4</button>
-			</div>
-			<div class="btn-group me-2" role="group">
-				<button type="button" class="btn btn-secondary">5</button>
-				<button type="button" class="btn btn-secondary">6</button>
-				<button type="button" class="btn btn-secondary">7</button>
-			</div>
-			<div class="btn-group" role="group">
-				<button type="button" class="btn btn-info">8</button>
+		<div class="container">
+			<div class="row row-cols-3">
+				<div class="col-md bg-primary">Column 1</div>
+				<div class="col-md bg-dark">Column 2</div>
+				<div class="col-md bg-success">
+					Column 3 12121 Lorem ipsum dolor sit amet consectetur adipisicing
+					elit. Facilis, similique.
+				</div>
 			</div>
 		</div>
 
